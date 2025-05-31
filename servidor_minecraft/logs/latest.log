@@ -1,106 +1,288 @@
-[23:04:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[23:04:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
-[23:04:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:04:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[23:04:35] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[23:04:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:04:41] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[23:04:41] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[23:04:43] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 8586ms.
-[23:04:43] [ServerMain/INFO]: Loaded 1370 recipes
-[23:04:43] [ServerMain/INFO]: Loaded 1481 advancements
-[23:04:43] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[23:04:44] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 260.8ms
-[23:04:44] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[23:04:44] [Server thread/INFO]: Loading properties
-[23:04:44] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[23:04:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[23:04:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:04:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:04:45] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[23:04:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[23:04:45] [Server thread/INFO]: Default game type: SURVIVAL
-[23:04:45] [Server thread/INFO]: Generating keypair
-[23:04:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:04:45] [Server thread/INFO]: Using epoll channel type
-[23:04:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[23:04:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[23:04:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:04:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:04:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:04:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:04:45] [Server thread/INFO]: Preparing level "world"
-[23:04:46] [Server thread/INFO]: ---- Migration of old nether folder required ----
-[23:04:46] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your nether folder to a new location in order to operate correctly.
-[23:04:46] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[23:04:46] [Server thread/INFO]: Attempting to move world/DIM-1 to world_nether/DIM-1...
-[23:04:46] [Server thread/INFO]: Success! To restore nether in the future, simply move world_nether/DIM-1 to world/DIM-1
-[23:04:46] [Server thread/INFO]: ---- Migration of old nether folder complete ----
-[23:04:46] [Server thread/INFO]: ---- Migration of old the_end folder required ----
-[23:04:46] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
-[23:04:46] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[23:04:46] [Server thread/INFO]: Attempting to move world/DIM1 to world_the_end/DIM1...
-[23:04:46] [Server thread/INFO]: Success! To restore the_end in the future, simply move world_the_end/DIM1 to world/DIM1
-[23:04:46] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
-[23:04:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:04:46] [Server thread/INFO]: Preparing spawn area: 0%
-[23:04:47] [Server thread/INFO]: Preparing spawn area: 0%
-[23:04:47] [Server thread/INFO]: Time elapsed: 939 ms
-[23:04:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:04:47] [Server thread/INFO]: Preparing spawn area: 0%
-[23:04:47] [Server thread/INFO]: Preparing spawn area: 0%
-[23:04:48] [Server thread/INFO]: Preparing spawn area: 0%
-[23:04:48] [Server thread/INFO]: Preparing spawn area: 0%
-[23:04:49] [Server thread/INFO]: Preparing spawn area: 2%
-[23:04:49] [Server thread/INFO]: Preparing spawn area: 6%
-[23:04:50] [Server thread/INFO]: Preparing spawn area: 18%
-[23:04:50] [Server thread/INFO]: Preparing spawn area: 51%
-[23:04:51] [Server thread/INFO]: Preparing spawn area: 69%
-[23:04:51] [Server thread/INFO]: Time elapsed: 4177 ms
-[23:04:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:04:51] [Server thread/INFO]: Preparing spawn area: 0%
-[23:04:52] [Server thread/INFO]: Preparing spawn area: 2%
-[23:04:52] [Server thread/INFO]: Time elapsed: 943 ms
-[23:04:52] [Server thread/INFO]: [spark] Starting background profiler...
-[23:04:52] [Server thread/INFO]: Done preparing level "world" (7.006s)
-[23:04:52] [Server thread/INFO]: Running delayed init tasks
-[23:04:52] [Server thread/INFO]: Done (19.970s)! For help, type "help"
-[23:04:52] [Server thread/INFO]: *************************************************************************************
-[23:04:52] [Server thread/INFO]: This is the first time you're starting this server.
-[23:04:52] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[23:04:52] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[23:04:52] [Server thread/INFO]: *************************************************************************************
-[23:05:52] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[23:08:00] [Server thread/INFO]: Stopping the server
-[23:08:00] [Server thread/INFO]: Stopping server
-[23:08:00] [Server thread/INFO]: Saving players
-[23:08:00] [Server thread/INFO]: Saving worlds
-[23:08:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:08:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:08:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:08:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:08:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 27 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[23:08:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[23:08:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[23:08:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:08:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:08:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:08:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:08:01] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.47s
-[23:08:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[23:08:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[23:08:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:08:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:08:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:08:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:08:01] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.32s
-[23:08:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[23:08:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[23:08:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:08:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:08:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:08:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:08:01] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[23:08:01] [Server thread/INFO]: All I/O tasks to complete
-[23:08:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[23:08:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[23:48:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[23:48:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
+[23:48:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:48:54] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Graves-4.9.jar'...
+[23:48:54] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/ReviveMe.jar'...
+[23:48:55] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ReviveMe.jar' in 878ms.
+[23:48:55] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Graves-4.9.jar' in 939ms.
+[23:48:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[23:48:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - Graves (4.9), ReviveMe (0.4.4)
+[23:49:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:49:01] [ServerMain/INFO]: Found new data pack file/Dedsafio 3 Vanilla 1.21+ - Club Pala.zip, loading it automatically
+[23:49:03] [ServerMain/INFO]: Loaded 1370 recipes
+[23:49:03] [ServerMain/INFO]: Loaded 1481 advancements
+[23:49:03] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[23:49:03] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 255.7ms
+[23:49:03] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[23:49:03] [Server thread/INFO]: Loading properties
+[23:49:03] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[23:49:04] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:49:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:49:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:49:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[23:49:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[23:49:05] [Server thread/INFO]: Default game type: SURVIVAL
+[23:49:05] [Server thread/INFO]: Generating keypair
+[23:49:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:49:05] [Server thread/INFO]: Using epoll channel type
+[23:49:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:49:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[23:49:05] [Server thread/INFO]: [ReviveMe] Loading server plugin ReviveMe v0.4.4
+[23:49:05] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[23:49:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:49:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:49:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:49:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:49:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:49:05] [Server thread/INFO]: Preparing level "world"
+[23:49:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:49:06] [Server thread/INFO]: Preparing spawn area: 0%
+[23:49:07] [Server thread/INFO]: Preparing spawn area: 0%
+[23:49:07] [Server thread/INFO]: Time elapsed: 955 ms
+[23:49:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:49:07] [Server thread/INFO]: Preparing spawn area: 0%
+[23:49:07] [Server thread/INFO]: Time elapsed: 212 ms
+[23:49:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:49:07] [Server thread/INFO]: Preparing spawn area: 0%
+[23:49:07] [Server thread/INFO]: Time elapsed: 128 ms
+[23:49:07] [Server thread/INFO]: [ReviveMe] Enabling ReviveMe v0.4.4
+[23:49:07] [Server thread/INFO]: ReviveMe enable
+[23:49:07] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[23:49:07] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[23:49:07] [Server thread/ERROR]: Error occurred while enabling Graves v4.9 (Is it up to date?)
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Graves-4.9.jar/com.ranull.graves.manager.VersionManager.<init>(VersionManager.java:23) ~[Graves-4.9.jar:?]
+	at Graves-4.9.jar/com.ranull.graves.Graves.onEnable(Graves.java:66) ~[Graves-4.9.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:49:07] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[23:49:07] [Server thread/ERROR]: Error occurred while disabling Graves v4.9
+java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataManager.closeConnection()" because "this.dataManager" is null
+	at Graves-4.9.jar/com.ranull.graves.Graves.onDisable(Graves.java:95) ~[Graves-4.9.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:49:07] [Server thread/INFO]: [spark] Starting background profiler...
+[23:49:08] [Server thread/INFO]: Done preparing level "world" (2.451s)
+[23:49:08] [Server thread/INFO]: Running delayed init tasks
+[23:49:08] [Server thread/INFO]: Done (16.387s)! For help, type "help"
+[23:49:08] [Craft Scheduler Thread - 3 - ReviveMe/INFO]: [ReviveMe] There is not a new update available.
+[23:49:26] [User Authenticator #0/INFO]: UUID of player DudMat is a71ab51c-f3f5-374d-b833-729f6293ad79
+[23:49:28] [Server thread/INFO]: DudMat joined the game
+[23:49:28] [Server thread/INFO]: DudMat[/127.1.182.54:58837] logged in with entity id 75 at ([world]-0.030241690761438386, 63.0, 0.9333366661252153)
+[23:49:34] [Server thread/INFO]: DudMat issued server command: /datapack
+[23:49:36] [Server thread/INFO]: DudMat issued server command: /datapack list
+[23:50:10] [Server thread/INFO]: DudMat issued server command: /datapack enable file/Dedsafio 3 Vanilla 1.21+ - Club Pala.zip
+[23:50:24] [Server thread/INFO]: DudMat issued server command: //pos1
+[23:51:02] [Server thread/INFO]: DudMat issued server command: /tag DudMat add anim.ruleta.roja
+[23:51:02] [Server thread/INFO]: [DudMat: Added tag 'anim.ruleta.roja' to DudMat]
+[23:51:23] [Server thread/INFO]: DudMat issued server command: /tag DudMat add anim.muerte
+[23:51:23] [Server thread/INFO]: [DudMat: Added tag 'anim.muerte' to DudMat]
+[23:51:30] [Server thread/INFO]: DudMat issued server command: /tag DudMat add anim.muerte
+[23:51:30] [Server thread/INFO]: [DudMat: Added tag 'anim.muerte' to DudMat]
+[23:51:30] [Server thread/INFO]: DudMat issued server command: /tag DudMat add anim.muerte
+[23:51:34] [Server thread/INFO]: DudMat issued server command: /tag DudMat add anim.muerte
+[23:51:36] [Server thread/INFO]: DudMat issued server command: /tag DudMat add anim.muerte
+[23:51:36] [Server thread/INFO]: [DudMat: Added tag 'anim.muerte' to DudMat]
+[23:52:02] [Server thread/INFO]: DudMat issued server command: /plugins
+[23:52:06] [Server thread/INFO]: DudMat issued server command: /gamemode survival
+[23:52:06] [Server thread/INFO]: [DudMat: Set own game mode to Survival Mode]
+[23:52:14] [Server thread/INFO]: DudMat issued server command: /summon minecraft:zombie
+[23:52:14] [Server thread/INFO]: [DudMat: Summoned new Zombie]
+[23:52:30] [Server thread/INFO]: DudMat has made the advancement [Monster Hunter]
+[23:52:32] [Server thread/INFO]: DudMat issued server command: /summon minecraft:zombie
+[23:52:32] [Server thread/INFO]: [DudMat: Summoned new Zombie]
+[23:52:34] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[23:52:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7402ms or 148 ticks behind
+[23:52:48] [Server thread/INFO]: DudMat was slain by Zombie
+[23:52:55] [Server thread/INFO]: DudMat issued server command: /gamemode adventure
+[23:52:55] [Server thread/INFO]: [DudMat: Set own game mode to Adventure Mode]
+[23:53:09] [Server thread/INFO]: DudMat issued server command: /gamemode survival
+[23:53:09] [Server thread/INFO]: [DudMat: Set own game mode to Survival Mode]
+[23:53:10] [Server thread/INFO]: DudMat issued server command: /gamemode creative
+[23:53:10] [Server thread/INFO]: [DudMat: Set own game mode to Creative Mode]
+[23:53:17] [Server thread/INFO]: DudMat issued server command: /plugins
+[23:53:21] [Server thread/INFO]: DudMat issued server command: /version Graves
+[23:53:31] [Server thread/INFO]: DudMat issued server command: /grave DudMat
+[23:53:31] [Server thread/ERROR]: Command exception: /grave DudMat
+org.bukkit.command.CommandException: Cannot execute command 'grave' in plugin Graves v4.9 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:53:37] [Server thread/INFO]: DudMat issued server command: /graves:burialground
+[23:53:37] [Server thread/ERROR]: Command exception: /graves:burialground
+org.bukkit.command.CommandException: Cannot execute command 'graves:burialground' in plugin Graves v4.9 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:53:44] [Server thread/INFO]: DudMat issued server command: /graves:tombstone
+[23:53:44] [Server thread/ERROR]: Command exception: /graves:tombstone
+org.bukkit.command.CommandException: Cannot execute command 'graves:tombstone' in plugin Graves v4.9 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:53:47] [Server thread/INFO]: DudMat issued server command: /graves:tombstone DudMat
+[23:53:47] [Server thread/ERROR]: Command exception: /graves:tombstone DudMat
+org.bukkit.command.CommandException: Cannot execute command 'graves:tombstone' in plugin Graves v4.9 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:53:51] [Server thread/INFO]: DudMat issued server command: /graves:burialground DudMat
+[23:53:51] [Server thread/ERROR]: Command exception: /graves:burialground DudMat
+org.bukkit.command.CommandException: Cannot execute command 'graves:burialground' in plugin Graves v4.9 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:53:59] [Server thread/INFO]: DudMat issued server command: /gamemode survival
+[23:53:59] [Server thread/INFO]: [DudMat: Set own game mode to Survival Mode]
+[23:54:12] [Server thread/INFO]: DudMat issued server command: /summon minecraft:zombie
+[23:54:12] [Server thread/INFO]: [DudMat: Summoned new Zombie]
+[23:55:24] [Server thread/INFO]: DudMat died
