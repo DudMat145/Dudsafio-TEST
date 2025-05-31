@@ -40,3 +40,24 @@
 [22:53:48] [Server thread/INFO]: DudMat joined the game
 [22:54:12] [Server thread/INFO]: [DudMat: Set own game mode to Survival Mode]
 [22:54:13] [Server thread/INFO]: [DudMat: Set own game mode to Creative Mode]
+[22:54:40] [Server thread/WARN]: DudMat moved too quickly! 11.009073564621644,0.0,0.6248789845069496
+[22:54:55] [Server thread/INFO]: [DudMat: Teleported DudMat to 0.500000, 66.000000, 0.500000]
+[22:55:53] [Server thread/INFO]: [DudMat: Set the world spawn point to 0, 62, 0 [0.0]]
+[22:55:58] [Server thread/INFO]: [DudMat: Set the time to 1000]
+[22:56:10] [Server thread/INFO]: [DudMat: Gamerule spawnRadius is now set to: 0]
+[22:57:06] [Server thread/INFO]: DudMat was killed
+[22:57:06] [Server thread/INFO]: [DudMat: Killed DudMat]
+[22:57:31] [Server thread/INFO]: DudMat lost connection: Disconnected
+[22:57:31] [Server thread/INFO]: DudMat left the game
+[22:58:31] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:03:19] [Server thread/INFO]: Stopping the server
+[23:03:19] [Server thread/INFO]: Stopping server
+[23:03:19] [Server thread/INFO]: Saving players
+[23:03:19] [Server thread/INFO]: Saving worlds
+[23:03:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:03:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:03:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:03:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:03:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:03:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:03:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
