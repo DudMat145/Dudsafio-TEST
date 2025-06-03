@@ -109,3 +109,15 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [21:55:15] [Server thread/INFO]: Done (16.410s)! For help, type "help"
 [21:55:16] [Craft Scheduler Thread - 3 - ReviveMe/INFO]: [ReviveMe] There is not a new update available.
 [21:56:15] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:08:49] [User Authenticator #0/INFO]: UUID of player DudMat is a71ab51c-f3f5-374d-b833-729f6293ad79
+[22:08:53] [Server thread/INFO]: DudMat joined the game
+[22:08:53] [Server thread/INFO]: DudMat[/127.1.182.54:47509] logged in with entity id 68 at ([world]7.281255689097014, 72.0, 9.837870810818668)
+[22:09:12] [Server thread/INFO]: DudMat issued server command: /reviveme mdisable
+[22:09:21] [Server thread/INFO]: DudMat issued server command: /time set day
+[22:09:21] [Server thread/INFO]: [DudMat: Set the time to 1000]
+[22:09:30] [Server thread/INFO]: DudMat issued server command: /gamemode creative
+[22:09:30] [Server thread/INFO]: [DudMat: Set own game mode to Creative Mode]
+[22:10:50] [Server thread/INFO]: DudMat issued server command: /advancement revoke DudMat everything
+[22:10:50] [Server thread/INFO]: [DudMat: Revoked 1481 advancements from DudMat]
+[22:11:36] [Server thread/INFO]: DudMat issued server command: /advancement revoke DudMat everything
+[22:11:36] [Server thread/INFO]: [DudMat: Revoked 1481 advancements from DudMat]

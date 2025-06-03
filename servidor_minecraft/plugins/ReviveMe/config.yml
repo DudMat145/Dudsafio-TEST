@@ -103,3 +103,4 @@ EnableForceDeath: true
 QualityArmoryCompatibility:
   enable: false
   useWeaponIfDamaged: false
+newVersionPremiumMessageDisable: true
