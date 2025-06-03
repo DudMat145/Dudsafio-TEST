@@ -121,3 +121,5 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [22:10:50] [Server thread/INFO]: [DudMat: Revoked 1481 advancements from DudMat]
 [22:11:36] [Server thread/INFO]: DudMat issued server command: /advancement revoke DudMat everything
 [22:11:36] [Server thread/INFO]: [DudMat: Revoked 1481 advancements from DudMat]
+[22:20:35] [Server thread/INFO]: DudMat issued server command: /time set day
+[22:20:35] [Server thread/INFO]: [DudMat: Set the time to 1000]
