@@ -123,3 +123,54 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [22:11:36] [Server thread/INFO]: [DudMat: Revoked 1481 advancements from DudMat]
 [22:20:35] [Server thread/INFO]: DudMat issued server command: /time set day
 [22:20:35] [Server thread/INFO]: [DudMat: Set the time to 1000]
+[22:27:01] [Server thread/INFO]: DudMat lost connection: Disconnected
+[22:27:01] [Server thread/INFO]: DudMat left the game
+[22:27:22] [User Authenticator #1/INFO]: UUID of player DudMat is a71ab51c-f3f5-374d-b833-729f6293ad79
+[22:27:33] [Server thread/INFO]: DudMat joined the game
+[22:27:33] [Server thread/INFO]: DudMat[/127.1.182.54:53951] logged in with entity id 2240 at ([world]-0.3130041117220252, 69.86940769628602, 1.257324909903764)
+[22:28:09] [Server thread/INFO]: DudMat issued server command: /gamemode survival
+[22:28:09] [Server thread/INFO]: [DudMat: Set own game mode to Survival Mode]
+[22:29:39] [Server thread/INFO]: DudMat issued server command: /time set day
+[22:29:39] [Server thread/INFO]: [DudMat: Set the time to 1000]
+[22:29:44] [Server thread/INFO]: DudMat issued server command: /gamemode creative
+[22:29:44] [Server thread/INFO]: [DudMat: Set own game mode to Creative Mode]
+[22:30:53] [Server thread/INFO]: DudMat lost connection: Disconnected
+[22:30:53] [Server thread/INFO]: DudMat left the game
+[22:31:09] [Server thread/INFO]: Stopping the server
+[22:31:09] [Server thread/INFO]: Stopping server
+[22:31:09] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.62.2
+[22:31:09] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.62.2
+[22:31:09] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.4
+[22:31:09] [Server thread/INFO]: [ReviveMe] Disabling ReviveMe v0.4.4
+[22:31:09] [Server thread/INFO]: ReviveMe disable
+[22:31:09] [Server thread/INFO]: Saving players
+[22:31:09] [Server thread/INFO]: Saving worlds
+[22:31:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:31:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:31:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:31:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Saved 88 block chunks, 114 entity chunks, 0 poi chunks in world 'world' in 0.14s
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[22:31:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[22:31:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[22:31:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:31:10] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[22:31:10] [Server thread/INFO]: All I/O tasks to complete
+[22:31:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:31:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
